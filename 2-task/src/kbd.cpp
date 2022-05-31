@@ -1,11 +1,8 @@
 #include <iostream>
 #include <string>
+#include "kbd.h"
 
-namespace puter {
-    struct Kbd {
-        void input_ram(std::string& buffer_ram) {
-            std::cout << "Input numbers: ";
-            std::cin >> buffer_ram;
-        }
-    };
+void puter::Kbd::input_ram(std::string& buffer_ram) {
+    std::cout << "Input numbers: ";
+    std::cin >> buffer_ram;
 }
