@@ -1,5 +1,8 @@
 #pragma once
+#include <string>
 
 namespace puter {
-    struct Kbd;
+    struct Kbd {
+        void input_ram(std::string& buffer_ram);
+    };
 }

@@ -1,5 +1,8 @@
 #pragma once
+#include "ram.h"
 
 namespace puter {
-    struct Gpu;
+    struct Gpu {
+        void display_ram(Ram& ram);
+    };
 }
